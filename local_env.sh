@@ -1,0 +1,29 @@
+#!/bin/sh 
+
+HOSTNAME=LOCALHOST
+USERNAME=postgres
+PASSWORD=1039462384David
+DB_NAME=test
+HOST=http://localhost:3000/api/v1/
+JWT_SECRET=jwtsecretgoeshere
+# ENABLE_CORE_METRICS=0
+PGUSER=
+PGHOST=
+PGPASSWORD=
+PGDATABASE=
+PGPORT=
+PGSCHEMA=
+
+export RDS_HOSTNAME
+export RDS_USERNAME
+export RDS_PASSWORD
+export RDS_DB_NAME
+export HOST
+export JWT_SECRET
+export ENABLE_CORE_METRICS
+export PGUSER
+export PGHOST
+export PGPASSWORD
+export PGDATABASE
+export PGPORT
+export PGSCHEMA
